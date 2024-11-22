@@ -1,0 +1,7 @@
+A script contains instructions of actions to be carried out in the order it was written.
+Script files should end in ".sh". For example: "script.sh"
+All script files must have the executable permission in order to run the script. For example: "chmod +x script.sh"
+Scripts must begin with a "shebang" along with the command interpreter. For example: "#!/bin/bash"
+Scripts must be structed a certain way and multiple commands can be in 1 script.
+Once a script is complete it can be executed by using commands "source" or "./" each command is followed by the script name. For example "source script.sh" or "./script.sh"
+
